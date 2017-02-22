@@ -2,7 +2,7 @@ var pxml;
 $(document).on('pagebeforeshow','#planet',function(){
     $.ajax({
         type: "POST",
-        url: "planets.xml",
+        url: "./planets.xml",
         dataType: "xml",
         success: function(xml) {
             pxml = xml;
