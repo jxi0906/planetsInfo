@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>jQuery Mobile</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="css/jquery.mobile.css" />
+	<link rel="stylesheet" href="css/mystyles.css" />
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile.js"></script>
+	<script src="js/myscript.js"></script>
+	<style>
+		table {border: none; width: 100%;}
+		td {text-align:center; color: red;}
+	</style>
+</head>
+<body>
+	<div data-role="page" id="planet" data-theme="a">
+		<header data-role="header">
+			<h1 class="ui-title ui-shadow">Planets</h1>
+		</header>
+
+		<section class="ui-content" role="main">	
+			<section class="ui-grid-c">
+				<div class="ui-block-a">
+					<img id="planet_mercury" src="images/mercury-icon.png" />
+					<strong><em>Mercury</em></strong>
+				</div>
+				<div class="ui-block-b">
+					<img id="planet_venus" src="images/venus-icon.png" />				
+					<strong><em>Venus</em></strong>
+				</div>
+				<div class="ui-block-c">
+					<img id="planet_earth" src="images/earth-icon.png" />								
+					<strong><em>Earth</em></strong>
+				</div>	
+				<div class="ui-block-d">
+					<img id="planet_mars" src="images/mars-icon.png" />								
+					<strong><em>Mars</em></strong>
+				</div>				
+			</section>
+			<section class="ui-grid-c">
+				<div class="ui-block-a">
+					<img id="planet_jupiter" src="images/jupiter-icon.png" />
+					<strong><em>Jupiter</em></strong>
+				</div>
+				<div class="ui-block-b">
+					<img id="planet_saturn" src="images/saturn-icon.png" />				
+					<strong><em>Saturn</em></strong>
+				</div>
+				<div class="ui-block-c">
+					<img id="planet_uranus" src="images/uranus-icon.png" />								
+					<strong><em>Uranus</em></strong>
+				</div>	
+				<div class="ui-block-d">
+					<img id="planet_neptune" src="images/neptune-icon.png" />								
+					<strong><em>Neptune</em></strong>
+				</div>				
+			</section>
+			<hr>
+			<section class="ui-grid-c">
+				<div class="ui-block-a">
+					<table><tr><th>Planet<br>Name</th></tr><tr><td id="pname">...</td></tr></table>
+				</div>
+				<div class="ui-block-b">
+					<table><tr><th>Planet<br>Color</th></tr><tr><td id="pcolor">...</td></tr></table>
+				</div>
+				<div class="ui-block-c">
+					<table><tr><th>Distance from Sun<br>(in KM)</th></tr><tr><td id="pdist">...</td></tr></table>
+				</div>	
+				<div class="ui-block-d">
+					<table><tr><th>Radius<br>(in KM)</th></tr><tr><td id="pradius">...</td></tr></table>
+				</div>				
+			</section>
+			<br>
+			<section class="ui-grid-a">
+				<div class="ui-block-a">
+					<table><tr><th>Satellite<br>Name</th></tr><tr><td id="psatname">...</td></tr></table>
+				</div>
+				<div class="ui-block-b">
+					<table><tr><th>Distance from Planet<br>(in days)</th></tr><tr><td id="psatdist">...</td></tr></table>
+				</div>				
+			</section>
+		</section>
+	</div>
+
+</body>
+</html>
